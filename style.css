@@ -1,0 +1,134 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fd8002;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+
+  .plane{
+    background-color: #fd8002;
+    background-image: url("");
+    background-size: 1490px 320px;
+    background-repeat: no-repeat;
+
+
+  }
+  .train{
+    background-color: #ccc;
+    background-image: url("");
+    background-size: 1490px 320px;
+    background-repeat: no-repeat;
+  }
+
+  .bus{
+    background-color: green;
+    background-image: url("");
+    background-repeat: no-repeat;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="date"],
+  select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+    
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    main {
+      padding: 10px;
+    }
+    
+    input[type="date"],
+    select {
+      width: 100%;
+    }
+  }
+  
